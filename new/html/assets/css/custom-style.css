@@ -1,0 +1,313 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+img{
+  max-width: 100%;
+}
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: #e6bc4c;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.scnd-img-box {
+    font-size: 71px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: #333; 
+}
+.sidenav a:hover{
+  background: #cb9f2d;   
+}
+.sidenav a I {
+    margin-right: 16px;
+}
+.toggle-arrow{
+    float: right;
+    padding-right: 15px;
+    padding-top: 7px;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
+.toggle-btn{
+    font-size:25px;
+    cursor:pointer;
+    background-color: #e6bc4c;
+    padding: 0px 10px;
+    color: #fff;
+    position: absolute;
+    top:50px;
+    left: 0;
+    z-index: 9;
+}
+/*======================================
+      testimonial-section
+======================================*/
+.p_one-section {
+    max-height: 600px;
+}
+/*.testimonial-section{
+   padding: 70px 0px;
+   position: relative;  
+}
+.testimonial-section:before{
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   content: "";
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.4);
+   z-index: 0;
+}*/
+.p_one-wrap{
+   position: relative;z-index: 5;
+}
+.p_one-section .p_one-content-wrp{
+    /*background: url(../images/banner-images.jpg) no-repeat;*/
+    background-size: cover;
+    widows: 100%;
+    height: 100%;
+    position: relative;
+}
+/*.testimonial-img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}*/
+.p_one-profile-img{
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   overflow: hidden;
+   margin: 0 auto;
+}
+.p_one-content{
+   max-width: 70%;
+   margin: 0 auto;
+   color: #fff;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   text-align: center;
+   margin-top: 150px;
+}
+.p_one-dis{
+   margin: 40px 0px;
+}
+.p_one-dis p{
+   margin: 0;
+   line-height: 22px;
+   font-style: italic;
+}
+
+.p_one-wrap{
+   position: relative;
+}
+.p_one-wrap .owl-nav .owl-prev, .p_one-wrap .owl-nav .owl-next {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    z-index: 10;
+    background: rgba(0,0,0, 0.5);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 18px 24px;
+    color: #b3aeae;
+}
+.p_one-wrap .owl-nav  .owl-prev{
+   left: 50px;
+}
+.p_one-wrap .owl-nav  .owl-next{
+   right: 50px;
+}
+.p_one-wrap .owl-nav .owl-prev:hover, .p_one-wrap .owl-nav .owl-next:hover{
+   background: rgba(0,0,0, 0.5);
+   color: #6FB426; 
+}
+.p_one-wrap .owl-nav .owl-prev:hover i, .p_one-wrap .owl-nav .owl-next:hover i{
+   color: #6FB426; 
+}
+
+.secnd-section{
+    padding: 50px 20px;
+    position: relative;
+    margin-top: -175px;
+    z-index: 99;
+}
+.secnd-items{
+    padding: 20px;
+    background-color: #f94949;
+    color: #fff;
+    width: 25%;
+    float: left;
+}
+.secnd-items h3{
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 10px;
+}
+.secnd-items-two{
+    background-color: #d3d607;
+}
+.secnd-items-three{
+    background-color: #597bdc;
+}
+
+.secnd-items-four{
+    background-color: #778798;
+}
+.banner-heading{
+    color: #a9b906;
+    font-size: 40px;
+}
+.banner-subheading{
+    color: #fff;
+    font-size: 25px;
+    max-width: 600px;
+    margin: 0 auto;   
+}
+.p_one-img {
+    max-height: 700px;
+}
+.p_one-dis .btn{
+  text-align: center;
+  display: inline-block;
+    padding: 6px 23px;
+    margin-bottom: 0;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 0px;
+    border-radius: 0px;
+    margin-top: 20px;
+    color: #000;
+    background-color: #fff;
+}
+.top-bar-section{
+  background-color: #333333;
+  padding: 10px 0px;
+}
+.top-bar-wrp > div{
+  display: inline-block;
+}
+.tb-left{
+  float: left;
+}
+.tb-left select{
+  background: none; 
+  color: #aaaaaa;
+  border: none;
+  font-size: 14px;  
+}
+.tb-left select option{
+  background: #000;
+}
+.tb-right{
+  float: right;
+}
+.tb-right ul{
+  color: #aaaaaa;
+  margin: 0;
+  padding:0;
+  display: inline-block; 
+  font-size: 14px;
+}
+.tb-right ul li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+.tb-right ul li i{
+  margin-right: 10px;
+}
+.tb-right ul li a{
+  color: #aaaaaa;
+  padding: 0px 10px; 
+}
+/*===================
+  second Desing css
+==========================*/
+
+
+.sdesign{
+  background: url(../images/sdesign-bg-imgae.jpg) no-repeat;
+  background-size: cover;
+  padding: 80px; 
+}
+
+
+.sdesign .owl-nav .owl-prev, .sdesign .owl-nav .owl-next {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    z-index: 10;
+    background: rgba(0,0,0, 0.5);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 18px 24px;
+    color: #b3aeae;
+}
+.sdesign .owl-nav  .owl-prev{
+   left: 50px;
+}
+.sdesign .owl-nav  .owl-next{
+   right: 50px;
+}
+.sdesign .owl-nav .owl-prev:hover, .p_one-wrap .owl-nav .owl-next:hover{
+   background: rgba(0,0,0, 0.5);
+   color: #6FB426; 
+}
+.sdesign .owl-nav .owl-prev:hover i, .p_one-wrap .owl-nav .owl-next:hover i{
+   color: #6FB426; 
+}
